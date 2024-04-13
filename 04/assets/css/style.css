@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    .container { 
+        width: 100vh;
+        height: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: darkolivegreen ;
+    }
+    .botoes{
+        display: flex;
+    }
+    .coluna01,
+    .coluna02,
+    .coluna03,
+    .coluna04{
+        display: flex;
+        flex-direction: column;
+    }
+
+button{
+    width: 3.8rem;
+    height: 3.8rem;
+    border-radius: 15px;
+    border-color:olive;
+    box-shadow: 0 0 15px olive;
+    background-color:darkseagreen;
+    font-family: cursive;
+    font-size: 15px;
+}
+
+p{
+    color: burlywood;
+    font-family:cursive;
+}
+input {
+    width: 240px;
+    height: 50px;
+    margin: 5px;
+    border-radius: 10px;
+    background-color:slategrey;
+}
+img {
+    width: 100px;
+}
